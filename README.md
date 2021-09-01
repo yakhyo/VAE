@@ -26,4 +26,4 @@ optional arguments:
   --log-interval	how many batches to wait before logging training status
 ```
 **Reference:**
-1.  https://github.com/pytorch/examples
+1.  All credits to https://github.com/pytorch/examples
