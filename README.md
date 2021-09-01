@@ -25,3 +25,5 @@ optional arguments:
   --seed		random seed (default: 1)
   --log-interval	how many batches to wait before logging training status
 ```
+**Reference:**
+1.  https://github.com/pytorch/examples
