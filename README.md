@@ -2,11 +2,20 @@
 
 This is an improved implementation of the paper [Auto-Encoding Variational Bayes](http://arxiv.org/abs/1312.6114) by Kingma and Welling. It uses ReLUs and the adam optimizer, instead of sigmoids and adagrad. These changes make the network converge much faster.
 
+**Results:**
+
+<div align='center'>
+  <img src='results/reconstruction.png' height="170px">
+  <img src='results/sample.png' height="170px">
+</div>
+
+**Train:**
+  
 ```
 pip install -r requirements.txt
 python main.py
 ```
-The main.py script accepts the following arguments:
+The `main.py` script accepts the following arguments:
 
 ```
 optional arguments:
